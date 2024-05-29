@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/abdullahiqbal1996/goldmark/util"
 	"github.com/go-swiss/fonts"
-	"github.com/yuin/goldmark/util"
 )
 
 type Config struct {

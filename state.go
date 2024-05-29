@@ -1,6 +1,6 @@
 package pdf
 
-import "github.com/yuin/goldmark/ast"
+import "github.com/abdullahiqbal1996/goldmark/ast"
 
 type state struct {
 	containerType  ast.NodeKind

@@ -1,17 +1,17 @@
-module github.com/stephenafamo/goldmark-pdf
+module github.com/abdullahiqbal1996/goldmark-pdf
 
 go 1.18
 
 retract v0.3.0 // Wrong implementation of default cache
 
 require (
+	github.com/abdullahiqbal1996/goldmark v0.0.0-20240529060939-06227b9cd8c5
 	github.com/alecthomas/chroma/v2 v2.10.0
 	github.com/dave/jennifer v1.4.1
 	github.com/go-swiss/fonts v0.0.0-20221219152310-0b267088f53d
 	github.com/jellydator/ttlcache/v3 v3.1.0
 	github.com/phpdave11/gofpdf v1.4.2
 	github.com/signintech/gopdf v0.9.16
-	github.com/yuin/goldmark v1.2.1
 	google.golang.org/api v0.44.0
 )
 

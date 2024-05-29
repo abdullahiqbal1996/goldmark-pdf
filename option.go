@@ -6,9 +6,9 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/abdullahiqbal1996/goldmark/util"
 	"github.com/alecthomas/chroma/v2"
 	"github.com/go-swiss/fonts"
-	"github.com/yuin/goldmark/util"
 )
 
 // An Option interface is a functional option type for the Renderer.

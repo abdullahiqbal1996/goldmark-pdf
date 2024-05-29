@@ -10,10 +10,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/abdullahiqbal1996/goldmark/ast"
+	east "github.com/abdullahiqbal1996/goldmark/extension/ast"
+	"github.com/abdullahiqbal1996/goldmark/util"
 	"github.com/alecthomas/chroma/v2"
-	"github.com/yuin/goldmark/ast"
-	east "github.com/yuin/goldmark/extension/ast"
-	"github.com/yuin/goldmark/util"
 )
 
 // Holds the neccessary information to write to a PDF

@@ -7,12 +7,12 @@ import (
 	"log"
 	"strings"
 
+	"github.com/abdullahiqbal1996/goldmark/ast"
+	east "github.com/abdullahiqbal1996/goldmark/extension/ast"
+	textm "github.com/abdullahiqbal1996/goldmark/text"
+	"github.com/abdullahiqbal1996/goldmark/util"
 	"github.com/alecthomas/chroma/v2"
 	"github.com/alecthomas/chroma/v2/lexers"
-	"github.com/yuin/goldmark/ast"
-	east "github.com/yuin/goldmark/extension/ast"
-	textm "github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
 )
 
 // A NodeRenderer interface offers NodeRendererFuncs.

@@ -3,8 +3,8 @@ package gopdf
 import (
 	"context"
 
+	pdf "github.com/abdullahiqbal1996/goldmark-pdf"
 	"github.com/signintech/gopdf"
-	pdf "github.com/stephenafamo/goldmark-pdf"
 )
 
 type InitConfig struct {

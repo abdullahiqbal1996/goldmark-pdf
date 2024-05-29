@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/yuin/goldmark/ast"
-	goldrender "github.com/yuin/goldmark/renderer"
+	"github.com/abdullahiqbal1996/goldmark/ast"
+	goldrender "github.com/abdullahiqbal1996/goldmark/renderer"
 )
 
 // NewRreturns a new PDF Renderer with given options.

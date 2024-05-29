@@ -1,12 +1,12 @@
 # goldmark-pdf
 
-goldmark-pdf is a renderer for [goldmark](http://github.com/yuin/goldmark) that allows rendering to PDF.
+goldmark-pdf is a renderer for [goldmark](http://github.com/abdullahiqbal1996/goldmark) that allows rendering to PDF.
 
 ![goldmark-pdf screenshot](https://res.cloudinary.com/stephenafamo/image/upload/v1618945448/goldmark-pdf%20screenshot.png)
 
 ## Reference
 
-See <https://pkg.go.dev/github.com/stephenafamo/goldmark-pdf>
+See <https://pkg.go.dev/github.com/abdullahiqbal1996/goldmark-pdf>
 
 ## Usage
 
@@ -53,7 +53,7 @@ type Config struct {
 }
 ```
 
-> Some helper functions for adding options are already provided. See [`option.go`](https://github.com/stephenafamo/goldmark-pdf/blob/master/option.go)
+> Some helper functions for adding options are already provided. See [`option.go`](https://github.com/abdullahiqbal1996/goldmark-pdf/blob/master/option.go)
 
 An example with some more options: 
 
